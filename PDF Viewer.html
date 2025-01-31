@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> <!-- Link to CSS -->
+    <script src="script.js" defer></script> <!-- Link to JS -->
+
+    <title >Ai Companion Chat</title>
+</head >
+<body>
+    
+    <header class="sub-header">
+        <h2 id="week-title" class="course-name">Week 1 - Chapter</h2>
+    </header>
+
+    <main class="pdf-chat-layout">
+        <!-- PDF Viewer Section -->
+        <section class="pdf-viewer-container">
+            <iframe id="pdf-viewer" src="" frameborder="0"></iframe>
+        </section>
+
+        <!-- Chat Section -->
+        <section class="chat-container">
+            <h2>Chat with SEU Companion </h2>
+            <div class="chat-box" id="chat-box">
+                <p>Can't understand what you see? feel free to ask me I am here to help   ...</p>
+            </div>
+            <div class="chat-input-container">
+                <input type="text" id="chat-input" placeholder="Type your message here...">
+                <button id="chat-send">Send</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Timer Section -->
+    <footer class="timer-footer">
+
+        <div class="timer" id="timer">Time spent: 0h 0m 0s</div>
+        <div class="timer-bar-container">
+            <div id="timer-bar" class="timer-bar"></div>
+        </div>
+    </footer>
+</body>
+</html>

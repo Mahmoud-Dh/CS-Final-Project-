@@ -1,0 +1,174 @@
+/* ==========================
+   General Styles
+========================== */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background-color: #F2F4F8;
+    color: #2C3E50;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* ==========================
+   Header Styling
+========================== */
+.main-header {
+    background-color: #0a3362;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Back Link */
+.back-link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    background-color: #007bff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.back-link:hover {
+    background-color: #0056b3;
+}
+
+/* ==========================
+   Quiz Section Styling
+========================== */
+#quiz-content {
+    width: 70%;
+    margin: auto;
+    text-align: left;
+}
+
+/* Question Box */
+.question-box {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    font-size: 20px; /* Make text larger */
+}
+
+/* Answer Box */
+.options-container {
+    margin-top: 15px;
+}
+
+/* Answer Option Styling */
+.option-box {
+    display: block;
+    background: #e3eaf8;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover Effect on Options */
+.option-box:hover {
+    background: black;
+    color: white;
+}
+
+/* Selected Answer Highlighting */
+.option-box input:checked + label {
+    font-weight: bold;
+}
+
+/* Correct Answer - Green */
+.correct-answer {
+    background-color: #28a745 !important;
+    color: white !important;
+}
+
+/* Wrong Answer - Red */
+.wrong-answer {
+    background-color: #dc3545 !important;
+    color: white !important;
+}
+
+/* ==========================
+   Explanation Box
+========================== */
+.explanation-box {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-style: italic;
+    border-left: 6px solid #007bff;
+    margin-top: 15px;
+}
+
+/* ==========================
+   Submit & Next Buttons
+========================== */
+#submit-answer, #next-question {
+    background: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background 0.3s;
+}
+
+#submit-answer:hover, #next-question:hover {
+    background: #0056b3;
+}
+
+/* ==========================
+   Final Score Box
+========================== */
+.score-box {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin: auto;
+    width: 50%;
+}
+
+/* Pass Message */
+.pass-message {
+    color: #28a745;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+/* Fail Message */
+.fail-message {
+    color: #dc3545;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+/* Score Buttons */
+.score-box button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background 0.3s;
+}
+
+.score-box button:hover {
+    background: #0056b3;
+}

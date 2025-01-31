@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEU AI Companion - Courses</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to CSS -->
+    <script src="script.js" defer></script> <!-- Link to JavaScript -->
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="main-header">
+        <div class="header-content">
+            <img src="icons/seu_ai_companion_logo.png" alt="SEU AI" class="logo">
+            <div class="header-text">
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <section class="courses-grid" id="course-list">
+            <!-- Courses will be dynamically generated here -->
+        </section>
+    </main>
+
+    <!-- AI CHAT SUPPORT -->
+    <div class="chat-support">
+        <div class="chat-header">
+            <h3>AI Chat Support</h3>
+            <button id="chat-toggle">-</button>
+        </div>
+        <div class="chat-body" id="chat-body">
+            <div class="chat-messages" id="chat-messages">
+                <p>Ask me anything about your CS courses!</p>
+            </div>
+            <div class="chat-input-container">
+                <input type="text" id="chat-input" placeholder="Type your message here...">
+                <button id="chat-send">Send</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
